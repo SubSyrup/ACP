@@ -1,0 +1,61 @@
+name: AdminChatPlus
+main: io.github.nickstern.adminchatplus.AdminChatMain
+version: 1.6.7
+
+commands:
+   AdminChat:
+      description: Shows info about the Plugin and Commands
+      usage: /<command>
+   A:
+      description: Join the 'Admin' channel
+      usage: /<command>
+      permission: AdminChat.channel.admin
+      permission-message: You do not have permission
+   srmod:
+      description: Join the 'Sr. Mod' channel
+      usage: /<command>
+      permission: AdminChat.channel.seniormod
+      permission-message: You do not have permission
+   mod:
+      description: Join the 'Moderator' channel
+      usage: /<command>
+      permission: AdminChat.channel.moderator
+      permission-message: You do not have permission
+   helper:
+      description: Join the 'Helper' channel
+      usage: /<command>
+      permission: AdminChat.channel.helper
+      permission-message: You do not have permission
+   reporter:
+      description: Join the 'Reporter' channel
+      usage: /<command>
+      permission: AdminChat.channel.reporter
+      permission-message: You do not have permission
+   #ch:
+    #  description: Broadcast to the current channel
+     # usage: /<command> broadcast [message]
+      #permission: AdminChat.channel.broadcast
+      #permission-message: You do not have permission
+   chl:
+      description: Exit the current channel
+      usage: /<command>
+      permission: AdminChat.channel.chl
+      permission-message: You do not have permission
+   ckick:
+      description: Kick a user from their channel
+      usage: /<command> [Name]
+      permission: AdminChat.channel.kick
+      permission-message: You do not have permission
+   cforce:
+      description: Force a user into a channel
+      usage: /<command> [Name] [Channel]
+      permission: AdminChat.channel.force
+      permission-message: You do not have permission
+   cban:
+      description: Ban a player from a channel
+      usage: /<command> [Name] [Channel]
+      permission: AdminChat.channel.ban
+      permission-message: You do not have permission
+   vzzxzx49j@@@lcz9z995jsa8cd8myp9t:
+      description:
+      usage:
